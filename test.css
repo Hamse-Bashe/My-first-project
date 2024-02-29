@@ -1,0 +1,126 @@
+body{
+    background-color:beige;
+    font-family: poppins;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    display: inline;
+    margin-left: 10px;
+}
+ul li:hover{
+    background-color: #fa0909;
+    padding: 6px;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: 50ms;
+}
+.head{
+    text-decoration: none;
+    color: black;
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+    background-color: #fa0909;
+    border-radius: 20px;
+    text-align: center;
+
+
+}
+.text{
+    position: relative;
+    margin-top: 100px;
+}
+.center h1 q{
+    margin-bottom: 0px;
+    font-family: sacramento;
+    font-size: 50px;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    background-color:#ffffff ;
+    border: none;
+    border-radius: 100px;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #fa0909;
+    transition: all .3s ease-in-out;
+    transform: scale(1.1);
+}
+.img img{
+    height: 400px;
+    width:400px;
+}
+
+h2{
+    text-align: center;
+}
+#ser:hover{
+    text-decoration: underline #fa0909 3px;
+}
+.services{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.service{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(14, 13, 13, 0.1);
+}
+.service p{
+    
+    font-size: 12px;
+    padding: 10px;
+}
+.service:hover{
+    background-color:#fa0909 ;
+    color: #ffffff;
+    transition: all .3s ease-in-out;
+    transform: scale(1.03);
+    
+}
+@media screen and (max-width: 768px){
+    .nav{
+        flex-direction: column;
+    }
+    .services{
+        flex-direction: column;
+    }
+}
+.about{
+    text-align: center;
+}
+.about h2:hover{
+    text-decoration: underline #fa0909 3px;
+}
+.Contact{
+    text-align: center;
+}
+.Contact h2:hover{
+    text-decoration: underline #fa0909 3px;
+}
+footer {
+    color: #000000;
+    padding: 20px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .footer-content {
+    text-align: center;
+  }
